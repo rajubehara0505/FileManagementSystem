@@ -1,0 +1,39 @@
+										COMMAND GUIDE:
+
+syntax: change_folder <folder name>:
+	Changes the current working directory to the given folder.
+	If the folder does not exist then corresponding error is shown.
+	Options:
+		change_folder ..:
+			This brings the current directory to the previous folder.
+
+syntax: list:
+	This displays the folders and files present in the current working directory.
+
+syntax: read_file <file name>:
+	This command displays 100 characters in a given file.
+	Subsequent calls of this command prints the next 100 characters untill all characters are displayed.
+	Options:
+		read_file:
+			closes the actively reading file.
+
+syntax: write_file <file name> <input>:
+	This command is used to write input into the file.
+	Creates a new file if the given file doesnot exist in the path.
+	Options:
+		write_file <file name>:
+			This clears the content in the given file name.
+
+syntax: create_folder<name>:
+	This command creates a new folder in the current working directory.
+	If the folder already exists then an error is returned.
+
+syntax: register<username><password>:
+	This command registers a new user with username and password into the system.
+	If the username already exists then it returns an error.
+
+syntax: login<username><password>:
+	This command login the user into the system if the user already registered.
+	If the username or password is incorrect then it returns an error.
+syntax: Quit:
+	This command makes the user to log out of the system.

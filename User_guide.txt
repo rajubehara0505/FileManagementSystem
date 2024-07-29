@@ -1,0 +1,21 @@
+Files included in the ZIP:
+
+1. server_connection.py
+2. server.py
+3. Client.py
+4. command_uses.txt
+5. users_registry.txt
+6. users_loggedin.txt
+
+Instructions for executing the code:
+
+step 1: execute server_connection.py
+step 2: execute client.py in a new terminal
+
+New user should register into the system before performing various tasks.
+
+*****Cautions***** :
+
+*User when executing various commands should be careful while entering the command.
+*The command should not contain any spaces and should exactly be typed like in the command_uses.txt file.
+*Ex write_file is correct, write file is invalid.
